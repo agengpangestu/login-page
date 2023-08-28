@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex items-center w-full h-screen bg-blue-300">
+      <div
+        class="bg-white 
+                  w-[400px] 
+                  h-[400px] 
+                  drop-shadow 
+                  shadow 
+                  mx-auto 
+                  rounded-[20px] 
+                  flex items-center justify-center">
+        <div class="flex flex-col justify-center">
+          <div class="mx-auto pb-5 text-[28px] font-semibold">
+            <h1>Login</h1>
+          </div>
+          <div class="grid gap-1 pb-2">
+            <label for="email" class="font-semibold">Email</label>
+            <input
+              class="w-[300px] h-[40px] 
+                      rounded-[8px] px-1 
+                      border-slate-300 border-2 
+                      outline-blue-500"
+              type="text"
+              id="email" />
+          </div>
+          <div class="grid gap-1 pt-2">
+            <label for="password" class="font-semibold">Password</label>
+            <input
+              class="w-[300px] h-[40px] 
+                      rounded-[8px] 
+                      px-1 
+                      border-slate-300 border-2 
+                      outline-blue-500"
+              type="password"
+              id="password" />
+          </div>
+          <div class="flex justify-end items-center pt-2.5">
+            <button class="text-[14px] font-semibold cursor-pointer">forget password ?</button>
+          </div>
+          <div class="pt-10 mx-auto">
+            <button
+              class="p-1.5 px-10 
+                    bg-blue-500 
+                    rounded 
+                    drop-shadow 
+                    active:bg-blue-400 
+                    hover:bg-blue-400 
+                    ease-in-out duration-150 
+                    text-white font-semibold
+                    cursor-pointer">
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
